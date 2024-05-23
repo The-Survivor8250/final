@@ -116,3 +116,25 @@ th {
     font-weight: bold;
 }
 
+.invoice-footer {
+    text-align: center;
+    border-top: 2px solid #333;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the start */
+}
+
+.dealer-signature,
+.dealer-address {
+    width: 48%; /* Adjust the width as needed */
+}
+
+.dealer-signature p,
+.dealer-address p {
+    margin: 5px 0;
+}
