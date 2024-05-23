@@ -31,6 +31,7 @@
         <div class="com_d">        
         <div class="car-details">
                     <p>Car Model: Tesla Model 3</p>
+                    <p>Car Color: White</p>
                     <p>License Plate: XYZ 1234</p>
                     <p>Rental Period: 2023-05-01 to 2023-05-10</p>
                 </div>

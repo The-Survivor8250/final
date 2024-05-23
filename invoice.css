@@ -186,8 +186,10 @@ th {
 }
 
 .print-button-container button {
-    padding: 10px 20px;
+    padding: 10px 10px 10px 10px;
     font-size: 16px;
+    color: black;
+    font-weight: 600;
     cursor: pointer;
     margin-bottom: 40px; 
 }
