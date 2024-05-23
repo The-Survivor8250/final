@@ -24,6 +24,7 @@
         <div class="invoice-header">
             <h1>INVOICE</h1>
                 <?php
+                date_default_timezone_set("Asia/Kolkata");
                 $date = date('Y-m-d');
                 $invoiceNumber = 'INV' . date('Ymd') . rand(1000, 9999);
                 echo "<div class='invoice-info'><span class='number'>Invoice Number: $invoiceNumber</span><span class='date'>Date: $date</span></div>";
