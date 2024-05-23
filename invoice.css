@@ -92,7 +92,7 @@ a{
 }
 
 .invoice-info .date {
-    margin-left: 190px; /* Adjust the space between date and invoice number */
+    margin-left: 160px; /* Adjust the space between date and invoice number */
 }
 
 .company-details p {
@@ -154,3 +154,40 @@ th {
     font-weight: bold;
 }
 
+.invoice-footer {
+    text-align: center;
+    border-top: 2px solid #333;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the start */
+}
+
+.dealer-signature,
+.dealer-address {
+    width: 38%; /* Adjust the width as needed */
+}
+
+.dealer-address p {
+    margin: 5px 0;
+}
+
+.dealer-signature p{
+    margin: 30px;
+}
+
+.print-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.print-button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 40px; 
+}

@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Rental Invoice</title>
     <link rel="stylesheet" href="invoice.css">
+    <script>
+        function printInvoice() {
+            window.print();
+        }
+    </script>
 </head>
 <body>
 <div class="main">    
@@ -74,10 +79,21 @@
             <p><strong>Total: $165.00</strong></p>
         </section>
         <footer class="invoice-footer">
-            <p>Thank you for choosing CarRental Co.!</p>
+            <div class="footer-content">
+                <div class="dealer-signature">
+                    <p>Dealer Signature with Date:</p>
+                    <p>_______________________</p>
+                </div>
+                <div class="dealer-address">
+                    <p>Dealer Address:</p>
+                    <p>Dealer Name</p>
+                    <p>5678 Elm St, Anytown, USA</p>
+                    <p>Phone: (987) 654-3210</p>
+                    <p>Email: dealer@carrental.com</p>
+                </div>
+            </div>
         </footer>
     </div>
-</div>    
 </body>
 </html>
 
