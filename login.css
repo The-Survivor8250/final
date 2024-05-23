@@ -5,8 +5,14 @@
     
 }
 body{
-    background-image: url(/img/login_bac.png);
+    background-image: url('signup_bac.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    
 }
+
 h1{
     color: white;
     font-weight: 600;
