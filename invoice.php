@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Rental Invoice</title>
     <link rel="stylesheet" href="invoice.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <script>
         function printInvoice() {
             window.print();
@@ -13,7 +14,7 @@
 </head>
 <body>
 <div class="main">    
-<header>
+    <header class="navbar">
         <a id="logo" href="/html/index.html">SAFAR</a>
         <a href="/html/cars.html">Cars</a>
         <a href="/html/about_us.html">About Us</a>

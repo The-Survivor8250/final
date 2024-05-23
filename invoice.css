@@ -193,3 +193,10 @@ th {
     cursor: pointer;
     margin-bottom: 40px; 
 }
+
+@media print {
+    .navbar,
+    .print-button-container {
+        display: none;
+    }
+}
