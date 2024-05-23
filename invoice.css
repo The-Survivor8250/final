@@ -199,4 +199,34 @@ th {
     .print-button-container {
         display: none;
     }
+
+
+.navbar,
+    .print-button-container {
+        display: none;
+    }
+
+    .invoice-container {
+        margin: 0;
+        padding: 20px;
+        box-shadow: none;
+        page-break-inside: avoid;
+    }
+
+    .invoice-header,
+    .invoice-footer {
+        page-break-before: avoid;
+        page-break-after: avoid;
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .company-details, .car-details, .customer-details {
+        width: 30%;
+    }
 }
