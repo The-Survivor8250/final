@@ -7,26 +7,38 @@
     <link rel="stylesheet" href="invoice.css">
 </head>
 <body>
+<div class="main">    
+<header>
+        <a id="logo" href="/html/index.html">SAFAR</a>
+        <a href="/html/cars.html">Cars</a>
+        <a href="/html/about_us.html">About Us</a>
+        <a href="/html/security_p.html">Security Policy</a>
+        <button><a href="/html/signup.html">Login/Signup</a></button>
+    </header> <hr>
     <div class="invoice-container">
-        <header class="invoice-header">
+        <div class="invoice-header">
             <h1>Car Rental Invoice</h1>
                 <?php
-                 $date = date('Y-m-d');
-                 $invoiceNumber = 'INV' . date('Ymd') . rand(1000, 9999);
-                 echo "<div class='invoice-info'><span class='number'>Invoice Number: $invoiceNumber</span><span class='date'>Date: $date</span></div>";
+                $date = date('Y-m-d');
+                $invoiceNumber = 'INV' . date('Ymd') . rand(1000, 9999);
+                echo "<div class='invoice-info'><span class='number'>Invoice Number: $invoiceNumber</span><span class='date'>Date: $date</span></div>";
                 ?>
-             <div class="company-details">
+        <div class="com_d">        
+        <div class="car-details">
+                    <p>Car Model: Tesla Model 3</p>
+                    <p>License Plate: XYZ 1234</p>
+                    <p>Rental Period: 2023-05-01 to 2023-05-10</p>
+                </div>
+
+            <div class="company-details">
                     <p>CarRental Co.</p>
                     <p>1234 Main St, Anytown, USA</p>
                     <p>Phone: (123) 456-7890</p>
                     <p>Email: info@carrental.com</p>
                 </div>
-                <div class="car-details">
-                    <p>Car Model: Tesla Model 3</p>
-                    <p>License Plate: XYZ 1234</p>
-                    <p>Rental Period: 2023-05-01 to 2023-05-10</p>
-                </div>
-        </header>
+                
+        </div>        
+        </div>
         <section class="customer-details">
             <h2>Customer Details</h2>
             <p>Name: John Doe</p>
@@ -65,6 +77,7 @@
             <p>Thank you for choosing CarRental Co.!</p>
         </footer>
     </div>
+</div>    
 </body>
 </html>
 
