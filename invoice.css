@@ -34,6 +34,7 @@ a{
     width: 1400px;
     margin-left: 100px;
 }
+
 /* Invoice styles */
 
 .invoice-container {
@@ -75,9 +76,6 @@ a{
 .company-details {
     width:100%;
     margin-left: 100px;
-    
-    
-
 }
 
 .company-details p,
@@ -193,6 +191,8 @@ th {
     cursor: pointer;
     margin-bottom: 20px; 
 }
+
+/*Affects after clicking print buttion*/
 
 @media print {
     .navbar,
