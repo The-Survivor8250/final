@@ -54,7 +54,7 @@ body {
 }
 
 .invoice-info .date {
-    margin-left: 190px; /* Adjust the space between date and invoice number */
+    margin-left: 160px; /* Adjust the space between date and invoice number */
 }
 
 .company-details p {
