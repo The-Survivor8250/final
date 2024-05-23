@@ -94,6 +94,9 @@
             </div>
         </footer>
     </div>
+    <div class="print-button-container">
+        <button onclick="printInvoice()">Print Invoice</button>
+    </div>
 </body>
 </html>
 
