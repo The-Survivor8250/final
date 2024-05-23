@@ -119,6 +119,9 @@
     </div>
     <div class="print-button-container">
         <button onclick="printInvoice()">Print Invoice</button>
+        <a href="#" download="invoice.pdf">
+        <button>Download Invoice</button>
+    </a>
     </div>
 </body>
 </html>
