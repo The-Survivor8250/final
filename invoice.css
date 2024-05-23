@@ -54,7 +54,7 @@ a{
 }
 
 .invoice-header h1{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 
@@ -227,6 +227,6 @@ th {
     }
 
     .company-details, .car-details, .customer-details {
-        width: 30%;
+        width: 100%;
     }
 }
