@@ -84,7 +84,7 @@
             <div class="footer-content">
                 <div class="dealer-signature">
                     <p>Dealer Signature with Date:</p>
-                    <p>_______________________</p>
+                    <p>_________________________________</p>
                 </div>
                 <div class="dealer-address">
                     <p>Dealer Address:</p>
