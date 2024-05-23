@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Rental Invoice</title>
     <link rel="stylesheet" href="invoice.css">
+    <script>
+        function printInvoice() {
+            window.print();
+        }
+    </script>
 </head>
 <body>
     <div class="invoice-container">
@@ -64,7 +69,7 @@
         <footer class="invoice-footer">
             <div class="footer-content">
                 <div class="dealer-signature">
-                    <p>Dealer Signature:</p>
+                    <p>Dealer Signature with Date:</p>
                     <p>_______________________</p>
                 </div>
                 <div class="dealer-address">
@@ -76,6 +81,9 @@
                 </div>
             </div>
         </footer>
+    </div>
+    <div class="print-button-container">
+        <button onclick="printInvoice()">Print Invoice</button>
     </div>
 </body>
 </html>

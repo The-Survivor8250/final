@@ -131,10 +131,25 @@ th {
 
 .dealer-signature,
 .dealer-address {
-    width: 48%; /* Adjust the width as needed */
+    width: 38%; /* Adjust the width as needed */
 }
 
-.dealer-signature p,
 .dealer-address p {
     margin: 5px 0;
+}
+
+.dealer-signature p{
+    margin: 30px;
+}
+
+.print-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.print-button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 40px; 
 }
