@@ -34,6 +34,7 @@
                     <p>Car Model: Tesla Model</p>
                     <p>Car Color: Blue</p>
                     <p>License Plate: WB 64 6106</p>
+                    <p>Fuel type: Disesl</p>
                     <p>Rental Period: 2023-05-01 to 2023-05-10</p>
                 </div>
 
@@ -42,6 +43,7 @@
                     <p> Hakimpara, Siliguri, 734001</p>
                     <p>Phone: (+91) 98565-87452</p>
                     <p>Email: <a href= "mailto: safar@gmail.com">safar@gmail.com</a></p>
+                    <p>GST No: GSTIN8965258745</p>
                 </div>
                 
         </div>        
@@ -119,9 +121,6 @@
     </div>
     <div class="print-button-container">
         <button onclick="printInvoice()">Print Invoice</button>
-        <a href="#" download="invoice.pdf">
-        <button>Download Invoice</button>
-    </a>
     </div>
 </body>
 </html>
